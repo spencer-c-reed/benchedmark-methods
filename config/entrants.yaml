@@ -1,0 +1,84 @@
+- id: opus-5.5
+  name: Claude Opus 5.5
+  color_slot: 1
+- id: sonnet-5.5
+  name: Claude Sonnet 5.5
+  color_slot: 2
+- id: haiku-5.5
+  name: Claude Haiku 5.5
+  color_slot: null
+- id: sol-6.1
+  name: GPT-6.1 Sol
+  color_slot: 3
+- id: luna-5.6
+  name: GPT Reserve (Codex "gpt-reserve")
+  color_slot: 4
+- id: fable-5.1
+  name: Claude Fable 5.1
+  color_slot: null
+- id: astra-6
+  name: GPT-6 Astra
+  color_slot: null
+- id: muse-spark-1.3
+  name: Muse Spark 1.3
+  color_slot: 5
+- id: nemotron-3-ultra
+  name: Nemotron 3 Ultra
+  color_slot: 6
+- id: mimo-2.6-flash
+  name: MiMo v2.6 Flash
+  color_slot: 8
+- id: gemma-4-31b
+  name: Gemma 4 31B
+  color_slot: 7
+- id: inkling
+  name: Inkling
+  color_slot: 8
+- id: gemini-3.1-pro
+  name: Gemini 3.1 Pro (High)
+  color_slot: null
+- id: gemini-3.8-flash
+  name: Gemini 3.8 Flash (High)
+  color_slot: null
+- id: grok-4.7
+  name: Grok 4.7
+  color_slot: null
+- id: kimi-k3
+  name: Kimi K3
+  color_slot: null
+- id: deepseek-v4.1-flash
+  name: DeepSeek V4.1 Flash
+  color_slot: null
+- id: deepseek-v4-pro
+  name: DeepSeek V4 Pro
+  color_slot: null
+- id: muse-wonder
+  name: Muse Wonder
+  color_slot: null
+- id: gemini-4-argon
+  name: Gemini 4 Argon
+  color_slot: null
+- id: qwen-3.8-flash
+  name: Qwen 3.8 Flash
+  color_slot: null
+- id: projection-bot
+  name: Projection Bot
+  color_slot: null
+- id: adp-bot
+  name: ADP Bot
+  color_slot: null
+- id: random-bot
+  name: Random Bot
+  color_slot: null
+- id: espn-auto-bot
+  name: Best-Available Bot
+  color_slot: null
+- id: yahoo-auto-bot
+  name: Starters-First Bot
+  color_slot: null
+- id: sleeper-auto-bot
+  name: Sleeper Autopilot
+  color_slot: null
+- id: consensus-bot
+  name: Consensus Bot
+  color_slot: null

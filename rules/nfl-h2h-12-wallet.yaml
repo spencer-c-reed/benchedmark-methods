@@ -1,0 +1,98 @@
+# BenchedMark NFL head-to-head league rules, 12 teams, CONVERTIBLE WALLET treatment. Versioned: any change
+# is a new file (nfl-h2h-12.1.yaml ...) and is applied prospectively only.
+rules_version: nfl-h2h-12-wallet.0
+sport: nfl
+timezone: America/New_York
+teams_per_league: 12
+roster_slots:          # starters, then bench
+  QB: 1
+  RB: 2
+  WR: 2
+  TE: 1
+  FLEX: 1
+  K: 1
+  DEF: 1
+  BN: 6
+eligibility:
+  QB: [QB]
+  RB: [RB]
+  WR: [WR]
+  TE: [TE]
+  FLEX: [RB, WR, TE]
+  K: [K]
+  DEF: [DEF]
+  BN: [QB, RB, WR, TE, K, DEF]
+max_per_position: {QB: 3, K: 2, DEF: 2}
+scoring:               # half-PPR (plan/AGENT-DIVISION.md section 7.2)
+  passing_yards: 0.04
+  passing_tds: 4
+  passing_interceptions: -2
+  passing_2pt_conversions: 2
+  rushing_yards: 0.1
+  rushing_tds: 6
+  rushing_2pt_conversions: 2
+  receptions: 0.5
+  receiving_yards: 0.1
+  receiving_tds: 6
+  receiving_2pt_conversions: 2
+  fumbles_lost: -2            # rushing + receiving + sack fumbles lost
+  special_teams_tds: 6
+  fumble_recovery_tds: 6
+kicking:
+  fg_made_0_39: 3             # fg_made_0_19 + 20_29 + 30_39
+  fg_made_40_49: 4
+  fg_made_50_plus: 5          # 50_59 + 60_
+  fg_missed: -1
+  pat_made: 1
+  pat_missed: -1
+defense:
+  def_sacks: 1
+  def_interceptions: 2
+  fumble_recovery_opp: 2
+  def_tds: 6
+  special_teams_tds: 6
+  def_safeties: 2
+  blocked_kicks: 2            # punt + fg + pat blocks
+  points_allowed:             # opponent's final score (all points), [max_inclusive, pts]
+    - [0, 10]
+    - [6, 7]
+    - [13, 4]
+    - [20, 1]
+    - [27, 0]
+    - [34, -1]
+    - [999, -4]
+faab_budget: 100
+faab_min_bid: 0
+format:
+  type: head_to_head
+  standings: |
+    Balanced seeded round-robin from week after draft through week 14. All 12 teams play
+    each other in a deterministic schedule. 6-team playoffs weeks 15-17: seeds 1-2 bye to
+    semifinals (week 16); seeds 3-6 play quarterfinals week 15. Non-playoff teams (seeds 7-12)
+    play consolation bracket weeks 15-17. Tiebreaks: win percentage, total points for,
+    all-play wins, seeded draw.
+waivers:
+  tie_break: worst_standing_then_seeded_random
+  faab_run: "Wed 03:00 ET"     # sealed FAAB bids, filed any time after the previous run, resolved here (D-ARENA-8 b)
+  fcfs_after_run: true         # then first come, first served (no cost) until each player's own kickoff
+lock:
+  policy: per_player_kickoff   # a player locks at his team's kickoff that week
+trades:
+  mode: continuous             # offers any time, answered on any wake (D-ARENA-7 b)
+  offer_ttl_hours: 24
+  max_threads_per_team_per_window: 4    # window = ET calendar day in continuous mode
+  max_msgs_per_thread: 6
+  max_players_per_side: 3
+  deadline_week: 12            # our deadline Sat Nov 28, after week 12 (AGENT-DIVISION 7.2)
+  faab_tradeable: true         # FAAB dollars may be included in trades, whole dollars (his Oct 7 ~23:48 yes)
+  ious: recorded_not_enforced  # side promises in trade messages are recorded, never enforced (D-NEW-IOU)
+messages:
+  max_chars: 1500
+chatter:
+  posts_per_window: 1          # window = ET calendar day: one public post per team per day
+season:
+  first_week: 4
+  last_week: 17                # regular season to 14, playoffs 15-17
+wallet:
+  convertible: true            # one wallet: FAAB dollars and in-world token dollars convert at a fixed rate
+  token_usd_per_faab: 1.0      # $1 FAAB = $1.00 of in-world token budget (both directions), whole FAAB dollars

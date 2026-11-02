@@ -1,0 +1,594 @@
+{
+  "schema": "benchedmark-methods-source/1",
+  "source_revision": "65c29005001fe4a21b1f3cbf38a6dd4466a55f6f",
+  "files": [
+    {
+      "path": "bm/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/agent/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/agent/book.py",
+      "source_sha256": "903c370710ae99e5a740b90012fa65d23e7d1fff53727f302afd0c6227b6fffe",
+      "released_sha256": "903c370710ae99e5a740b90012fa65d23e7d1fff53727f302afd0c6227b6fffe",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/agent/bots.py",
+      "source_sha256": "62bb5a250cba13eb771ddf13de9e37e34c9c9979cf6071b0f724f4a2339bc8d8",
+      "released_sha256": "af34dad59d60bdd03495653c834aa85fa82b42839532738e9777a604028d5089",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized. Personal attribution replaced with generic operator wording."
+    },
+    {
+      "path": "bm/agent/budget.py",
+      "source_sha256": "a317365ec52ae86b2969b25da6c1e1dff327274746e74b0a288bbd402c597dd0",
+      "released_sha256": "d2147726b6c5b06c444a6a2a7bdf19ca6328a185613147ffad86a16bd205f928",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/agent/harness.py",
+      "source_sha256": "87c57a6ea816549f37ce9a5734a469091b88182040b1a8a041792d65b6918fb9",
+      "released_sha256": "7cd9add2e46c5e21d872fb38fff58234b8211f9111beeca9c4c6c23e77c26f43",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/agent/notebook.py",
+      "source_sha256": "4d1fe1638e04354dd85184dda15224d601bc10045d1b50db7f44d16e14d3ccd8",
+      "released_sha256": "e1ad571d5d5d413e307a6690da99fe21505e33c54fd85ec32f65d46a7944b269",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/agent/notes.py",
+      "source_sha256": "c38f42eb541001383c2ccb75f0dace3ae345d7451deced1354f8ccd30eb065c7",
+      "released_sha256": "f0a5d706147c4743beeaede7066b5c8e5bf638988726baf1a2efda4ae60efcfe",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/agent/onboard.py",
+      "source_sha256": "bfdf1cd952490e6082222d28832e999ddfa97a05b3627ecdd7f84102202aef06",
+      "released_sha256": "bcda3218bd787f3966693c7c52a6b26bb16f6815e61091bc6cae977b12040d55",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/agent/prompts.py",
+      "source_sha256": "c7e36b0a7874862e88b916d8a5126d72eef403bf02d85e3ba1fe7deca987b45f",
+      "released_sha256": "c7e36b0a7874862e88b916d8a5126d72eef403bf02d85e3ba1fe7deca987b45f",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/agent/prompts_restart.py",
+      "source_sha256": "26790c71d913f50e136e16c8b67827851d819946efc759f037470599133a37bd",
+      "released_sha256": "26790c71d913f50e136e16c8b67827851d819946efc759f037470599133a37bd",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/agent/prompts_v2.py",
+      "source_sha256": "247248f66032350fbf7b24f8ea2449e6d7700730c61d6d35d13063e14009ff60",
+      "released_sha256": "247248f66032350fbf7b24f8ea2449e6d7700730c61d6d35d13063e14009ff60",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/agent/runtime.py",
+      "source_sha256": "3e7d81d5b23803ce6cd159db1865b253d9fbdd433c8431708e36d9068698eca4",
+      "released_sha256": "f3a5edb707e01e73bdf1e341ed779f633f7f0b87dabaab6cb6ee029eeb67106a",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/agent/tools.py",
+      "source_sha256": "feb996b60aea208c6540499035acd319b37e612726859b0e724cf16dc5842295",
+      "released_sha256": "147d4bab9f32631753aadb4ca81434e01e49d8038f544ec353b4b066113a4757",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/cli.py",
+      "source_sha256": "538650e5d530f591503a1087897fae2cf4135d6839eb1d76d6f4a1cc40ecc390",
+      "released_sha256": "22fce3270b04da73af78592815b5468b3baa41897f9cab1feca18a515423c40f",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized. Personal attribution replaced with generic operator wording."
+    },
+    {
+      "path": "bm/engine/__init__.py",
+      "source_sha256": "deab9bf069d281e34b7abedec46e16d33cdf56cce3d9a0614eb9bd6f953cd153",
+      "released_sha256": "894866778e4b373bdb8ae3bb06f6b53eeeee3969b740c92795e73d79dccac647",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/engine/defaults.py",
+      "source_sha256": "399feed11322b968a2286d33e3b4a5d076e33713d305408fb383e864704e8378",
+      "released_sha256": "818be10e79794cb44d564ec990795e924f08ee2b16850084ad6896caa3be96c9",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/engine/h2h.py",
+      "source_sha256": "f25019d75d96c2ca5eb27e47f1d146ed6d37921e5e4024c34197a9389ea0ecda",
+      "released_sha256": "ceed65cbc044767d4f29a3018db36a61a67ee444a69389e8b66c4c125681c678",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/engine/rules.py",
+      "source_sha256": "bbedd54ba52baad0b941b139db8b7fdb8607008328486ffd12707eeae5ae531e",
+      "released_sha256": "e71e4ee702926abd56bb518ed6ad182127d6d45e4ca35fdd9cc4f92a9af470b2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/engine/scoring.py",
+      "source_sha256": "0ad97903b2f83634825bca375921d26c5c3e8d69579c7fd96cedbaf681eb1636",
+      "released_sha256": "0ad97903b2f83634825bca375921d26c5c3e8d69579c7fd96cedbaf681eb1636",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/engine/state.py",
+      "source_sha256": "84eba11820b503c5cdf7af73f2c1ce55fe5f8eb34c827bccb254e2cef0742588",
+      "released_sha256": "b6bb633743299f2265396efab95471ce57484ba3a34da3ffb0d7deea0b2a06ee",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/engine/waivers.py",
+      "source_sha256": "2a68bb677703a48e9ec6aa2e590c3ebad6e2acd72327f4bbfd7fe2a9c3588687",
+      "released_sha256": "7b01b4d89a9f870258753aad4618e50fc45b0b5881076afb5e8efa8fd3e8f800",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/gateway/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/gateway/adapters.py",
+      "source_sha256": "3028d72f3734feee26d5153c5a1c042394d433dcf63b0a6cea100752cf5ce255",
+      "released_sha256": "b96f3e8ee0b64e19e4a60ac3af223e933665c8b628cd462d819374f85d97b3f0",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized. Personal attribution replaced with generic operator wording."
+    },
+    {
+      "path": "bm/gateway/core.py",
+      "source_sha256": "ec7e607516f168ed35e46847edda4312b967bc57ea7e0c988c27a8b3d5171a7e",
+      "released_sha256": "57bb82011b6065b70c8c687d72b62f3f1458010564f88fefdbbccb5ca96d21c5",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/gateway/identity.py",
+      "source_sha256": "7caa079f7e4188ca2d59901942cfdbee0ac2b432addbd33c84fa40b7c862a9cf",
+      "released_sha256": "33890200b3c66d45565c3fd4edf027517b2cabadce630effb7fa58d02ab6dc73",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/league/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/league/agentleague.py",
+      "source_sha256": "7ade1095c6df334151082bb5ccd26c6f223bc6f8b2907319afe8c5b468f06d91",
+      "released_sha256": "289ab4046f9c8c773d443ecfcd2cbaf6874d8b98c39cbeac6397ab60bac67824",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/league/ceiling.py",
+      "source_sha256": "c315e054985de54f4d5bcaa544dc619277277fe315af891f7b332f27c73b8e07",
+      "released_sha256": "d93ea47d77e53029eb76f361f1dc7a0525f4571a2026cc4f5c33b96d4ce46940",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/league/context.py",
+      "source_sha256": "c5b96b5e8c078e17be3a67b36c0606661262825fa5262492d1468d932a275065",
+      "released_sha256": "c3f01bd8a8ed173d5557eb8cf567a2c8e77b867c8b47f58a30ed9322974979d8",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/league/finals.py",
+      "source_sha256": "a9f26b700cc0442272b4e171d261c8f6f7d422ccf36c55732716fb821dcc00d1",
+      "released_sha256": "2b6387234952199a96be413a5b9ca08fe187aaa57423c92cab8570001229afc3",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/league/private.py",
+      "source_sha256": "4dcf684c1bd8b0014413e5fd806e42a19f5030733bb9a660c7beeb4db46ebb9d",
+      "released_sha256": "e605ac7ae2c405b9e6f45b99030160e018af74c6b70fd0140e6594a3a0471614",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized. Held-out house-probe scenario prompts, selection and timing removed; entrypoints raise NotImplementedError."
+    },
+    {
+      "path": "bm/league/season.py",
+      "source_sha256": "e2bfb8975a6783fcbd6b469dc30c8408544bec7e428c14a1a765c44bc6823d02",
+      "released_sha256": "4725e584e4c5ab96d94a4f785d232f54cef5a09c301c6dfdd32795732aaec385",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized. Personal attribution replaced with generic operator wording."
+    },
+    {
+      "path": "bm/league/swiss.py",
+      "source_sha256": "42f399ac258a0af4dba248fab23f697f608c79489d4bed2e0d6c09f03ab00827",
+      "released_sha256": "a8808764f701780eb5f6bcb39572a8e0e89f275485ec834a5e9c8a5b1fd2be4b",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/league/trade_context.py",
+      "source_sha256": "a8b9d170f9250663701c543c94b060026b5741f8a1cee8e91c0d823e29e302f9",
+      "released_sha256": "c7b535db1d290d9249197ea38224e7fed8cd29736e1a4371706b48ba3babf3b3",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/log/__init__.py",
+      "source_sha256": "7e276def069ac8b0a274bcab597db45985807811fbf2118b098a7aa1e404dd45",
+      "released_sha256": "380f2871c153c17ba7d1ae251153bb01f68a622b9138266bb357810304de546f",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/markets/__init__.py",
+      "source_sha256": "fe3e3af22c14a0819166c35c03289f16a0fd00b553c148d6fbe08f26e01798b7",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/markets/collect.py",
+      "source_sha256": "39dc5863d311dc9bdbc15de8d76a0c0a0dac3b5c827bc80a1c3fa5b9f0cfa858",
+      "released_sha256": "1de8ad4ba6da640de06efdcd90847b685a318128e7cf3ee09a1ad7f89f7cb6a8",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/alert.py",
+      "source_sha256": "4542194362df882d32b5c7fb4e759342ec1f73ccce766713c4b56e3869e3d97c",
+      "released_sha256": "8785ee19e64e82b526851d71dd1448a5388b855eb70f0c50e1824ca05522abdf",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/capacity.py",
+      "source_sha256": "f77d8302b69f142ed19c09ca551041af91373add6385d696f024bd920e4bf6fe",
+      "released_sha256": "7f6c9e2ae91b61c70cbb962c393b1c062e99ba7d864525f7f0a153b57d92ab6a",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/exclusions.py",
+      "source_sha256": "a478eed5a59ef171be704cea83ed31b82f5dce41a884ea3ba286e48ef657425c",
+      "released_sha256": "401a479aa3222203fc874edf925497e139d9f3c1f9f87e6d8996716f638886dc",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/freeze_guard.py",
+      "source_sha256": "0de2c79f36bf84228a51b3a2e000160d05e155db97fe5a97e4bd145e88eb4fb9",
+      "released_sha256": "862b699c56ee29c8a654b61f712130bcf05ee8fb6090d693b2e6cdb5340791a1",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/gateway_audit.py",
+      "source_sha256": "b8e1b6da862d5b37267b669c1f4a5f63dc407e9ea777a5774f01f30a631a0619",
+      "released_sha256": "2ae9d2a7e2f050a5f5d1b501d01b594446359802690cdaddb9ba9d77c210f6eb",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/invariants.py",
+      "source_sha256": "351a994b8eff55b6d92bcbf6c0f7fd91436c8720bc7ae93fb9f182b1bf87b624",
+      "released_sha256": "1d08ca8774ee2dfd96799adab1514c0a9a68d7ad32aa21503c95ade6e47c80bd",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/nodecisions.py",
+      "source_sha256": "55ced80b75f971521b82e470cc15e4209eb0ef4d101b5a116b433094992ef978",
+      "released_sha256": "7dba96a42658c15712ada0b717e1280c60942b3c4b9f0d8724a88936c6bc656c",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/picks_watch.py",
+      "source_sha256": "4869c6157c96482b9e75c8e1d43de2ed30d470b9d98066125a867cba073e09f6",
+      "released_sha256": "5acd4ed0859b655d68d13fa1e106ed68dc3a33eb39be52e10f9d861c047d521c",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/probe.py",
+      "source_sha256": "f0a5ffed23cb0adbf01e16d7c828e1b8a73ddcde921e30f02154a41fc9ac7014",
+      "released_sha256": "2cb62e60426b5a8982496b2c0d4947fa7721ea9446d1eddddf5bc5a8e64e54e1",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/served_model.py",
+      "source_sha256": "9acedc0d6eec872fe96435e9a2b03b8b5430ad2ed08889e8b2ae8a1407504ee4",
+      "released_sha256": "40bc12a5fe6d1acd1b1760a71d1ae4eca670a73c9a0ffa13c2b3fe6252dbc31d",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/ops/successorwatch.py",
+      "source_sha256": "46bf37e2b69b25335c3875a1cf8bbb56421fa5d3dcfe224abce930ec806e175a",
+      "released_sha256": "b7a130d9690ff0371eea2b240dc6a644b70976ec42f7a52088491d5235c272b9",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/paths.py",
+      "source_sha256": "1fbcbfe3ea044d666f7466bb0b4ce71a4a051208cdbfb69e734c8777791d3725",
+      "released_sha256": "484cb534dac7c7576fa074a9017baa37a15ed5b8cb2579a3d3c2a0e4ce7388d9",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/picks/__init__.py",
+      "source_sha256": "cfaf4573c38f5b463c3dea07e97bde93954ac36c89cbdeabea702a1daafc16db",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/picks/briefing.py",
+      "source_sha256": "7f67fab962089bb882843b5cc6a604cb7e95f52bd434059168152509108df5bc",
+      "released_sha256": "7f67fab962089bb882843b5cc6a604cb7e95f52bd434059168152509108df5bc",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/picks/lines.py",
+      "source_sha256": "0d7fc09817c186ba0edaf392a1d5b0e0b1ed1bfdab8702fe8202057df5b51386",
+      "released_sha256": "cc6b895215f25541cb37d03003f19a8bcc6f4cc0414e6559b848967251a69467",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/picks/prompts_restart.py",
+      "source_sha256": "315acfde8f2fe0ab789aaeb94ff416ba6dbbda824f79e20905794c9ecf31669d",
+      "released_sha256": "315acfde8f2fe0ab789aaeb94ff416ba6dbbda824f79e20905794c9ecf31669d",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/picks/receipts.py",
+      "source_sha256": "3052e202d4a6e8b506f744cb27cddbd462b00e61d0af8dc8449a77d6d8f105e6",
+      "released_sha256": "6c63aacf93857aa79d344e48a2db87b3330acfdcee902059907543877d018afd",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/picks/run.py",
+      "source_sha256": "ac098137b40b8ee5e0695b0e79efbf03ee5478beb388831a5707bf4c7a06e66a",
+      "released_sha256": "162732cd1bb14e37292445d06e193f6791ab510dbe504e6df756c455b9252205",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/priority.py",
+      "source_sha256": "67e9c9d3998670c98d6b9d3e5fd20128e77ecb36b9c3f4df4eb7e69d99b0da74",
+      "released_sha256": "f518a6f137be12127852217428035f8c180a5765613840364e77985b0a22ffef",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/publish/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/publish/boards.py",
+      "source_sha256": "4bba8b29f1d83149796823c32b67e38fe72f3f5305129379e18f70d353ed7509",
+      "released_sha256": "999b21f1a3894335d260fc727385d7e2bdae100d9dca00dcccfed8643678e4f0",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/publish/draft.py",
+      "source_sha256": "82693056323bc13d0cf5faf3d412e51f81dc97bddcbd4ab7cad5544012136793",
+      "released_sha256": "33ef0b6d8d763c45513dcdf7482fe3cd4d9551ade8bb32dfa060b5ffe8321e84",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/publish/export.py",
+      "source_sha256": "85af2532de30746f05e465e98190e70180f9350f6247cb9ae717499d55d53306",
+      "released_sha256": "6de7f928873f2ee5bee44f2b838be3da8bdd1fffc9101d58b47ced92a91c4954",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/publish/lanehealth.py",
+      "source_sha256": "bd915a1176785da9ec05542d70354199c36302316e4f5bdc6b0e395f37ac0884",
+      "released_sha256": "3ba4db22f0800033600d244354cba0fe007930b606212935987ee5aee5f966e6",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/publish/own_ledger.py",
+      "source_sha256": "686dfe77de38f23e35c174d3229840717d0bf942519e2399e94efb26242147f9",
+      "released_sha256": "822ff544e9fb32dd84a349409d0e027a402249821282fb9036144faf450cf6a8",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/records.py",
+      "source_sha256": "0a26cf193145fbebf1af6ccec0caad803ac9e56151b3fdb391bdca4310e16645",
+      "released_sha256": "5ff426787812516ca61af4a2c98de4f74800e8ec69db786898a151e06f87107c",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/replay.py",
+      "source_sha256": "18330e0b54448edd9af45b329cf22599d06bf497d7b982aa35b39e920c9f64a4",
+      "released_sha256": "20e6c26e7384e112100e7ccb60a58fa4c427b83f910a3b08c642e0cd06dfa980",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/score/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "released_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/agentic.py",
+      "source_sha256": "c93ff5e6d50860bcf6276cee7442971539483e14c10fa9e77d674e9a6a3cc717",
+      "released_sha256": "c93ff5e6d50860bcf6276cee7442971539483e14c10fa9e77d674e9a6a3cc717",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/counterfactual.py",
+      "source_sha256": "a2f0fde85ffe59495c204c26807104ee18774b8ac214474826135dba545131d4",
+      "released_sha256": "a2f0fde85ffe59495c204c26807104ee18774b8ac214474826135dba545131d4",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/coverage.py",
+      "source_sha256": "5bd0563570c11c4b59b566ff2f031309aa547b514adeed5e705ed1b9a95ffbec",
+      "released_sha256": "5bd0563570c11c4b59b566ff2f031309aa547b514adeed5e705ed1b9a95ffbec",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/forecast.py",
+      "source_sha256": "d83fe0398e526d5483e149f5f9718539d1fc7d1700f2e28d7300467dea91121b",
+      "released_sha256": "d83fe0398e526d5483e149f5f9718539d1fc7d1700f2e28d7300467dea91121b",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/negotiation.py",
+      "source_sha256": "46fed46e25f1e5095379cf4dcdcc2b71a1e745f3daebdefb1d65c53ecb43012b",
+      "released_sha256": "46fed46e25f1e5095379cf4dcdcc2b71a1e745f3daebdefb1d65c53ecb43012b",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/optimism.py",
+      "source_sha256": "6a2ac39e0292fcdc9e2b16fd56cd119b81fbfcc5bb8f470b537793780690034b",
+      "released_sha256": "6a2ac39e0292fcdc9e2b16fd56cd119b81fbfcc5bb8f470b537793780690034b",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/picks.py",
+      "source_sha256": "d297bbca9baec6794a5f795aafe629d45dc6985c1874f60a008e121984e15291",
+      "released_sha256": "d297bbca9baec6794a5f795aafe629d45dc6985c1874f60a008e121984e15291",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/picks_clv.py",
+      "source_sha256": "fb85394081b2284b7c2a977810222f7dbdb89a0bc5f71b09d0c6fe335ebc27b6",
+      "released_sha256": "fb85394081b2284b7c2a977810222f7dbdb89a0bc5f71b09d0c6fe335ebc27b6",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/picks_experts.py",
+      "source_sha256": "38a408f2f05011e14242e28837042f73b8ea40d00ab86de45d9e4349dc7b4c8b",
+      "released_sha256": "38a408f2f05011e14242e28837042f73b8ea40d00ab86de45d9e4349dc7b4c8b",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/picks_readout.py",
+      "source_sha256": "edf404409154a84332f32636e7606788c48c5d08b6a6d0aa445d6c791dd62fca",
+      "released_sha256": "edf404409154a84332f32636e7606788c48c5d08b6a6d0aa445d6c791dd62fca",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/proof.py",
+      "source_sha256": "4ac83522f9c0f64a6cb128a6017562f59ea94392145bde42b2b6a373a437a7f0",
+      "released_sha256": "4ac83522f9c0f64a6cb128a6017562f59ea94392145bde42b2b6a373a437a7f0",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/provisional.py",
+      "source_sha256": "0d351752ebcae2b2d1157d6881b27d75537745ba11da09c6acf0766409fd5b32",
+      "released_sha256": "0d351752ebcae2b2d1157d6881b27d75537745ba11da09c6acf0766409fd5b32",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/rank_stability.py",
+      "source_sha256": "ead6e329f14c3ebbd5d67dea8792e899b30734f93b3a0baf6173865729c6d14b",
+      "released_sha256": "ead6e329f14c3ebbd5d67dea8792e899b30734f93b3a0baf6173865729c6d14b",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/refusals.py",
+      "source_sha256": "0515eb7c043daa5140c786a66cffcc741b2707346fefdf1282b090db53c11554",
+      "released_sha256": "0515eb7c043daa5140c786a66cffcc741b2707346fefdf1282b090db53c11554",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/rescore_check.py",
+      "source_sha256": "4a671f0a7526573c5255568f61f4a3e33ea54ebec43133af2f5437be585a9b61",
+      "released_sha256": "4a671f0a7526573c5255568f61f4a3e33ea54ebec43133af2f5437be585a9b61",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/research_use.py",
+      "source_sha256": "102b3b271b5207afe6cff806074e9671383590c405285daf1fdffe72c3c6d39e",
+      "released_sha256": "102b3b271b5207afe6cff806074e9671383590c405285daf1fdffe72c3c6d39e",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/score/scorecard.py",
+      "source_sha256": "298a43f76ea847f9f85244209933735cfd734a1c28a926b92a200a7f15c7796c",
+      "released_sha256": "afdae9943ea63a9d752058f0884353b394545842c9044c1711fbf54f89b4ef16",
+      "treatment": "Verbatim source. Personal attribution replaced with generic operator wording."
+    },
+    {
+      "path": "bm/score/validity.py",
+      "source_sha256": "4b1abbb32323175df582aadf8f966fd09af334321c7210235fafd1e3ad956a6c",
+      "released_sha256": "4b1abbb32323175df582aadf8f966fd09af334321c7210235fafd1e3ad956a6c",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "bm/stats/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "released_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/stats/baserates.py",
+      "source_sha256": "af32de92a36df0054893fb8650178957f763c95f50f352346998a5013f2acef8",
+      "released_sha256": "cf8881af4a9c67f7a46baf0899607357db1d0bca349ec74e7a0a1de095183a8d",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/stats/expert_rankings.py",
+      "source_sha256": "48d4b9e35cc844c6511b5b00ed12edd2bf8721b09aec3e9c2ca3785d50e33118",
+      "released_sha256": "0496e919c36a52df604d2802e863e0a8313e85fb11666ae4c786fef501b8463c",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/stats/market.py",
+      "source_sha256": "d5109dcc46ca2a62854b4d9f0ebf61112adfd76f011cbd97241986abd871ace0",
+      "released_sha256": "c58c2cc79ac1dc73c6f29fe75d9096019a179b51722547ec6831bf11dfe93fe0",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/stats/nflverse.py",
+      "source_sha256": "747de31b4ed5a8fa6f52e6c461bfd267fcf0644311fdcd28512c6653b9ec3d1e",
+      "released_sha256": "58401be07969fcceacee938fae04226b961ad1187816540fea88814cfeb4d387",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/stats/platform.py",
+      "source_sha256": "c8dc03e1320f5062d51611ae1ad71d8a7627022d0b0bc1a37411a0efee738102",
+      "released_sha256": "c484b35b64ab74bf09a4a303d226d770e22782ee8612226c9e980aee7c86088c",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized. Personal attribution replaced with generic operator wording."
+    },
+    {
+      "path": "bm/stats/projections.py",
+      "source_sha256": "77a9a378d7f25182db4dbe3f2ded80aa2dc13e4dc8d2bc6ed3651e94127c8822",
+      "released_sha256": "a1611b9bd1144a5d0be4a734415891eb7792d42888954f710628ea0a46366615",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/succession.py",
+      "source_sha256": "a3b58784389e34563a1637dfe7eeb1596a4605c7836601038a8ce010f9a626a2",
+      "released_sha256": "140efe364542d74f9930304cec6f35666361c92abd6f4eb0b599c339c53c5fa1",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "bm/wire.py",
+      "source_sha256": "7799efde428d873c72782125bf9316cbf18965ac8cff1c52dc9ecdedd4f8bf35",
+      "released_sha256": "ba0b22ee8b895210338dddcda58aaf8a036756b2e0ade8b129be27c17f8c12f2",
+      "treatment": "Support comments/docstrings removed; Python formatting normalized."
+    },
+    {
+      "path": "rules/nfl-s1.yaml",
+      "source_sha256": "f2e40bac2684a0a9ae1a27fdab1c6655e0ade6e1d1d98c4bb41b5557c2588099",
+      "released_sha256": "f2e40bac2684a0a9ae1a27fdab1c6655e0ade6e1d1d98c4bb41b5557c2588099",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "rules/nfl-finals-s1.yaml",
+      "source_sha256": "bc81e10026d969ed3230921f582e5cabf283733c885f0e19b614abdd02031e65",
+      "released_sha256": "bc81e10026d969ed3230921f582e5cabf283733c885f0e19b614abdd02031e65",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "rules/nfl-h2h-12.yaml",
+      "source_sha256": "90a96070c053b9906ce6952965c9d965d98d54e0901ef3271e91aafa6f1d29e0",
+      "released_sha256": "90a96070c053b9906ce6952965c9d965d98d54e0901ef3271e91aafa6f1d29e0",
+      "treatment": "Verbatim source."
+    },
+    {
+      "path": "rules/nfl-h2h-12-wallet.yaml",
+      "source_sha256": "0b9bc3be8779b1fcb9515ddacee23abfd1cd6c94b8878036f0f8c3550146e92d",
+      "released_sha256": "0b9bc3be8779b1fcb9515ddacee23abfd1cd6c94b8878036f0f8c3550146e92d",
+      "treatment": "Verbatim source."
+    }
+  ]
+}

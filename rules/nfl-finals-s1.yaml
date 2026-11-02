@@ -1,0 +1,81 @@
+# BenchedMark NFL rules, finals-only format (plan/FINALS-FORMAT.md). Same scoring, roster, FAAB and locks as nfl-s1;
+# differs only in the trade deadline and the season block. Versioned: any change is a new file.
+rules_version: nfl-finals-s1.0
+sport: nfl
+timezone: America/New_York
+teams_per_league: 10
+roster_slots:          # starters, then bench
+  QB: 1
+  RB: 2
+  WR: 2
+  TE: 1
+  FLEX: 1
+  K: 1
+  DEF: 1
+  BN: 6
+eligibility:
+  QB: [QB]
+  RB: [RB]
+  WR: [WR]
+  TE: [TE]
+  FLEX: [RB, WR, TE]
+  K: [K]
+  DEF: [DEF]
+  BN: [QB, RB, WR, TE, K, DEF]
+max_per_position: {QB: 3, K: 2, DEF: 2}
+scoring:               # half-PPR (plan/AGENT-DIVISION.md section 7.2)
+  passing_yards: 0.04
+  passing_tds: 4
+  passing_interceptions: -2
+  passing_2pt_conversions: 2
+  rushing_yards: 0.1
+  rushing_tds: 6
+  rushing_2pt_conversions: 2
+  receptions: 0.5
+  receiving_yards: 0.1
+  receiving_tds: 6
+  receiving_2pt_conversions: 2
+  fumbles_lost: -2            # rushing + receiving + sack fumbles lost
+  special_teams_tds: 6
+  fumble_recovery_tds: 6
+kicking:
+  fg_made_0_39: 3             # fg_made_0_19 + 20_29 + 30_39
+  fg_made_40_49: 4
+  fg_made_50_plus: 5          # 50_59 + 60_
+  fg_missed: -1
+  pat_made: 1
+  pat_missed: -1
+defense:
+  def_sacks: 1
+  def_interceptions: 2
+  fumble_recovery_opp: 2
+  def_tds: 6
+  special_teams_tds: 6
+  def_safeties: 2
+  blocked_kicks: 2            # punt + fg + pat blocks
+  points_allowed:             # opponent's final score (all points), [max_inclusive, pts]
+    - [0, 10]
+    - [6, 7]
+    - [13, 4]
+    - [20, 1]
+    - [27, 0]
+    - [34, -1]
+    - [999, -4]
+faab_budget: 100
+faab_min_bid: 0
+waivers:
+  tie_break: worst_standing_then_seeded_random
+lock:
+  policy: per_player_kickoff   # a player locks at his team's kickoff that week
+trades:
+  max_threads_per_team_per_window: 2
+  max_msgs_per_thread: 6
+  max_players_per_side: 3
+  deadline_week: 17            # finals-only: trades open in every week the league plays (no eliminated teams to dump on)
+messages:
+  max_chars: 1500
+chatter:
+  posts_per_window: 1
+season:
+  first_week: 15               # leagues may override start_week/end_week (the rehearsals play earlier weeks under these exact rules)
+  last_week: 17

@@ -1,0 +1,47 @@
+variants:
+  v2.ref:
+    note: 'Full-game reference: open-field league, agent wakes, notebook context,
+      JSON tool route; observation clause per seat'
+    blocks:
+      role: role@v2
+      league: league@v2
+      obs: obs@silent
+      time: time@agent
+      conduct: conduct@v2
+      ctx: ctx@notebook
+      out: out@json-v2
+      forecast: forecast@v2
+  v2.ref+disclosed:
+    note: v2.ref with the disclosed observation clause (D-PROMPT-2, assigned per seat,
+      D-PF-8)
+    blocks:
+      role: role@v2
+      league: league@v2
+      obs: obs@disclosed
+      time: time@agent
+      conduct: conduct@v2
+      ctx: ctx@notebook
+      out: out@json-v2
+      forecast: forecast@v2
+  v2.ref+private:
+    note: 'v2.ref in a private-information league (G3/G4: owner-first reports, embargo)'
+    blocks:
+      role: role@v2
+      league: league@v2.private
+      obs: obs@silent
+      time: time@agent
+      conduct: conduct@v2
+      ctx: ctx@notebook
+      out: out@json-v2
+      forecast: forecast@v2
+  v2.ref+private+disclosed:
+    note: v2.ref+private with the disclosed clause
+    blocks:
+      role: role@v2
+      league: league@v2.private
+      obs: obs@disclosed
+      time: time@agent
+      conduct: conduct@v2
+      ctx: ctx@notebook
+      out: out@json-v2
+      forecast: forecast@v2

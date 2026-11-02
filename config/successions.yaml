@@ -1,0 +1,35 @@
+successions:
+- retired: gemini-3.1-pro
+  successor: gemini-3.8-flash
+  from_week: 6
+  from_at: '2026-10-13T14:00:00-04:00'
+  leagues:
+  - nfl-l1
+  - nfl-l2
+  - nfl-l3
+  - nfl-l4
+  - nfl-l5
+  - nfl-l6
+  picks: true
+  reason: provider retirement (Google removed Gemini 3.1 Pro (High) from Antigravity,
+    the seat's only route)
+- kind: operator
+  entrant: grok-4.7
+  operator: projection-bot
+  from_week: 7
+  from_at: '2026-10-20T12:00:00-04:00'
+  leagues:
+  - nfl-l1
+  - nfl-l2
+  picks: false
+  reason: funding
+- kind: operator
+  entrant: grok-4.7
+  operator: projection-bot
+  from_week: 7
+  from_at: '2026-10-20T00:15:00-04:00'
+  leagues:
+  - nfl-g1
+  - nfl-g2
+  picks: false
+  reason: funding
